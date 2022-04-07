@@ -6,7 +6,7 @@
 		<meta https-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<link rel="profile" href="https://gmpg.org/xfn/11" />
 		<link rel="pingback" href="https://www.ee.IITM.ac.in/PEDES2018/xmlrpc.php" />
-		<title>AITA-2021</title>
+		<title>VAMMAM-2022</title>
 		<link rel='dns-prefetch' href='//s.w.org' />
 		<link rel="alternate" type="application/rss+xml" title="PEDES2018 &raquo; Feed" href="https://www.ee.IITM.ac.in/PEDES2018/feed/" />
 		<link rel="alternate" type="application/rss+xml" title="PEDES2018 &raquo; Comments Feed" href="https://www.ee.IITM.ac.in/PEDES2018/comments/feed/" />
@@ -122,14 +122,32 @@
             line-height: 120%;
             margin-bottom: 5px;
         }
+        .navbar-component{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
         .reqimg{
             /* style="position: absolute; left: 20px; top: 20px; width: 140px; height: 140px;"  */
-            position: absolute;
-            left: 2%;
-            top:1%;
+            position: relative;
+            left: 0.25%;
+            top:5%;
             width: 8%;
+            /* margin: 30px; */
             height: inherit;
             display: inline-block;
+        }
+
+        .main-logo{
+            flex-direction: row;
+            height: 100px;
+            width: 150px;
+            margin-left: 45%;
+            margin-right: 45%;
+            padding: 0.5%;
         }
         .cstm{
             color: #EEEEEE;
@@ -139,7 +157,7 @@
 			width: 20vh;
 			border-radius: 50%;
 		}
-            @media(max-width: 800px) {
+		@media(max-width: 800px) {
                 h1{
                     font-size: 20px;
                 }
@@ -152,9 +170,18 @@
                 .reqimg{
                     display: block;
                     position: relative;
-                    width: 15%;
+                    width: 10%;
                     left: 42%;
                     height: inherit;
+                }
+                .navbar-component{
+                    display: block;
+                    position: relative;
+                }
+                .main-logo{
+                    display: block;
+                    margin-left: 120px;
+                    margin-right: 120px;
                 }
             }
 			.cards{
@@ -174,7 +201,7 @@
                 }
 			}
             @media(max-width: 700px) {
-                h1{
+				h1{
                     font-size: 16px;
                     line-height: 120%;
                 }
@@ -189,14 +216,23 @@
                 .reqimg{
                     display: block;
                     position: relative;
-                    width: 20%;
+                    width: 15%;
                     left: 40%;
                     height: inherit;
                 }
-                .cards{
-                    width: 85%;
-                    height: 20vh;
+                .navbar-component{
+                    display: block;
+                    position: relative;
                 }
+                .main-logo{
+                    display: block;
+                    margin-left: 120px;
+                    margin-right: 120px;
+                }
+				.cards {
+            width: 85%;
+            height: 20vh;
+        }
             }
     </style>
 </head>
@@ -206,14 +242,26 @@
 
 	<div class="main-text" style="margin-top: 14px;">
         <!-- style="position: absolute; left: 20px; top: 20px; width: 140px; height: 140px;"  -->
+        <img src="../image/vammamlogo.png" class="main-logo">
+        <div class="navbar-component">
         <img src="../image/nitlogo.png" class="reqimg">
         <!-- <div class="text-center"> -->
-            <h1 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">International Conference on Artificial Intelligence: Theory & Applications</h1>
-           <h1 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">AITA-2021</h1>
-           <h2 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">23 - 24 December 2021</h2>
-           <h3 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">Organised by Dept. of Electronics & Communication Engineering</h3>
-           <h3 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">National Institute of Technology Patna, India</h3>
+            <div class="navbar-headings">
+                <h1 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">6th Prof. Vijaya Agarwala Memorial Inter National Conference on Microwave Absorbing Materials</h1>
+                <h1 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">VAMMAM-2022</h1>
+                <h2 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">24 - 25 August 2022</h2>
+                <h3 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">Jointly Organized by 
+                 </h3>
+                 <h3 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">Common Research Technology Development Hub (CRTDH) for New Materials/Stealth Applications, Centre of Nanotechnology</h3>
+                 <h3 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">Indian Institute of Technology Roorkee Uttrakhand – 247667, INDIA</h3>
+                 <h3 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">&</h3>
+                <h3 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">Department of ECE
+                 National Institute of Technology Patna, Patna – 800005, INDIA
+                 </h3>
         <!-- </div> -->
+    </div>
+        <img src="../image/iitrlogo.png" class="reqimg">
+    </div>
     </div>
 
     <div class="container" style="object-fit:fill;margin:0px;padding:0px;width:100%;">
@@ -315,7 +363,11 @@
 						<div class="menu"><ul id="prime_nav" class="menu"><li id="menu-item-91" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-83 current_page_item menu-item-has-children menu-item-91"><a href="../home/home.html"><span><i class="_mi _before dashicons dashicons-admin-home" aria-hidden="true"></i><span><b style="font-weight:bold">Home</b></span></span></a>
 
 						</li>
-						<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="#"><span><i class="_mi _before dashicons dashicons-groups" aria-hidden="true"></i><span><b style="font-weight:bold">Committees</b></span></span></a><ul class="sub-menu"><li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="../commitee/iadvisory.html"><span><i class="_mi _before dashicons dashicons-groups" aria-hidden="true"></i><span><b style="font-weight:bold">International Advisory Committee</b></span></span></a></li><li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="../commitee/nadvisory.html"><span><i class="_mi _before dashicons dashicons-groups" aria-hidden="true"></i><span><b style="font-weight:bold">National Advisory Committee</b></span></span></a></li><!--<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="../commitee/tpc.html"><span><i class="_mi _before dashicons dashicons-groups" aria-hidden="true"></i><span><b style="font-weight:bold">Technical Programme Committee</b></span></span></a></li>--><li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="../commitee/organising.html"><span><i class="_mi _before dashicons dashicons-groups" aria-hidden="true"></i><span><b style="font-weight:bold">Organising Committee</b></span></span></a></li></li><li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="../commitee/student.html"><span><i class="_mi _before dashicons dashicons-groups" aria-hidden="true"></i><span><b style="font-weight:bold">Student Committee</b></span></span></a></li></ul></li>
+						<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="#"><span><i class="_mi _before dashicons dashicons-groups" aria-hidden="true"></i><span><b style="font-weight:bold">Committees</b></span></span></a><ul class="sub-menu">
+							<!-- <li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="../commitee/iadvisory.html"><span><i class="_mi _before dashicons dashicons-groups" aria-hidden="true"></i><span><b style="font-weight:bold">International Advisory Committee</b></span></span></a></li> -->
+						  <li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"> 
+							  
+							  <a href="../commitee/nadvisory.html"><span><i class="_mi _before dashicons dashicons-groups" aria-hidden="true"></i><span><b style="font-weight:bold">Advisory Committee</b></span></span></a></li><!--<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="../commitee/tpc.html"><span><i class="_mi _before dashicons dashicons-groups" aria-hidden="true"></i><span><b style="font-weight:bold">Technical Programme Committee</b></span></span></a></li>--><li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="../commitee/organising.html"><span><i class="_mi _before dashicons dashicons-groups" aria-hidden="true"></i><span><b style="font-weight:bold">Organising Committee</b></span></span></a></li></li><li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="../commitee/student.html"><span><i class="_mi _before dashicons dashicons-groups" aria-hidden="true"></i><span><b style="font-weight:bold">Student Committee</b></span></span></a></li></ul></li>
 						<li id="menu-item-98" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-98"><a href="#"><span><i class="_mi _before dashicons dashicons-format-standard" aria-hidden="true"></i><span><b style="font-weight:bold">Call for Papers</b></span></span></a>
 						<ul class="sub-menu">
 							<!--<li id="menu-item-643" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-643"><a href="#"><span><i class="_mi _before dashicons dashicons-admin-tools" aria-hidden="true"></i><span><b style="font-weight:bold">Presentation Information</b></span></span></a>
@@ -363,6 +415,7 @@
 						</li>
 						<li id="menu-item-276" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-276"><a href="#"><span><i class="_mi _before dashicons dashicons-admin-page" aria-hidden="true"></i><span><b style="font-weight:bold">Know More</b></span></span></a>
 						<ul class="sub-menu">
+							<li id="menu-item-274" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-274"><a href="../link/iitr.html"><span><i class="_mi _before dashicons dashicons-location" aria-hidden="true"></i><span><b style="font-weight:bold">About IIT Roorkee</b></span></span></a></li>
 							<li id="menu-item-274" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-274"><a href="../link/college.html"><span><i class="_mi _before dashicons dashicons-location" aria-hidden="true"></i><span><b style="font-weight:bold">About NIT Patna</b></span></span></a></li>
 							<li id="menu-item-275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-275"><a href="http://www.bstdc.bih.nic.in/"><span><i class="_mi _before dashicons dashicons-location" aria-hidden="true"></i><span><b style="font-weight:bold">About Tourist Spots</b></span></span></a></li>
 						</ul>
@@ -417,172 +470,164 @@
 
                     <div class="entry-content">
                         <hr>
-                        <h4><strong><span style="color: #993300;">National Advisory Committee/ TPC Members</span></strong></h4>
+                        <h4><strong><span style="color: #993300;"> TPC Chair(s)</span></strong></h4>
                         <hr>
 						<div></div>
+						<div class="cards">
+							<img src="../commitee/photo_adv/kp_singh.jpeg" alt="" >
+							 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe">Prof. K. P. Singh, IIT (BHU) Varanasi</i></p>
+
+						</div>
 
                         <div class="gmail_default">
                             <div class="cards">
-								<img src="../image/nadvisory/Dr. Selva Kumar Subramanian, Professor _ Director, IIIT Una, Hamirpur, India.jpg" alt="" >
-								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Selva Kumar Subramanian, Professor & Director, IIIT Una, Hamirpur, India</p>
+								<img src="" alt="" >
+								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. M.V kartikeyen, Professor, IIT Tirupati ( Fellow, IEEE)</p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/Dr. Rajeev Srivastava, Professor _ Dean (R_A), IIT(BHU), Varanasi, India.jpg" alt="" >
-								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Rajeev Srivastava, Professor & Dean (R&A), IIT(BHU), Varanasi, India</p>
+								<img src="" alt="" >
+								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Rajeev Srivastava, Professor, IIT (BHU),Varanasi (SM, IEEE)</p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/Dr. A.Govardhan, Professor and Ractor, JNTU Hyderabad, India.jpg" alt="" >
-								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. A.Govardhan, Professor and Rector(Pro Vice-chancellor), JNTU Hyderabad, India</p>
+								<img src="" alt="" >
+								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. K. Bhanu Sankara Rao, University of Hyderabad</p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/Dr. Neeraj Sharma, Professor, IIT(BHU), Varanasi, India.jpg" alt="" >
-								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Neeraj Sharma, Professor, IIT(BHU), Varanasi, India</p>
+								<img src="" alt="" >
+								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Prof. S Pal, Ex. Vice Chancellor, DIAT Pune</p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/Dr. Prabin Kumar Bora, Professor, IIT Guwahati, India.jpg" alt="" >
-								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Prabin Kumar Bora, Professor, IIT Guwahati, India</p>
+								<img src="" alt="" >
+								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe">Dr. Prashant Vasistha, DLG, Jodhpur</i></p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/Dr. Satyabrata Jit, Professor, IIT(BHU), Varanasi, India.jpg" alt="" >
-								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Satyabrata Jit, Professor, IIT(BHU), Varanasi, India</p>
+								<img src="" alt="" >
+								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Hema Singh, NAL Bangalore</p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/Dr. Satish Chand, Professor, JNU, New Delhi, India.jpg" alt="" >
-								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Satish Chand, Professor, JNU, New Delhi, India</p>
+								<img src="" alt="" >
+								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe">Dr. A. K. Singh, DLRL, DRDO Hyderabad</i></p>
+
+							</div>
+				
+							<div class="cards">
+								<img src="" alt="" >
+								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe">Dr. S. K. Dubey, NPL, Delhi</i></p>
+
+							</div>
+						
+							<div class="cards">
+								<img src="" alt="" >
+								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe">Prof. Ramesh Pandey, MNNIT Allahabad</i></p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/Dr. Om Pal, Scientist _D_, Research _ Development, Ministry of Electronics and Information Technology, Gov. of India..jpg" alt="" >
-								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Om Pal, Scientist 'D', Research & Development, Ministry of Electronics and Information Technology, Gov. of India.</p>
+								<img src="../commitee/photo_adv/gd_verma.jpeg" alt="" >
+								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Prof. G D. Varma, IIT Roorkee </p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/Dr. Chaturi Singh, Principal Research Engineer, IIT Kanpur, India.jpg" alt="" >
-								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Chaturi Singh, Principal Research Engineer, IIT Kanpur, India</p>
+								<img src="../commitee/photo_adv/rk_dutta.jpeg" alt="" >
+								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Prof. R. K. Dutta, IIT Roorkee </p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/Dr. Ravi Bhusan Mishra, Professor, NIT Patna, India.jpg" alt="" >
-								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Ravi Bhusan Mishra, Professor, NIT Patna, India</p>
+								<img src="../commitee/photo_adv/yogesh_sharma.jpeg" alt="" >
+								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe">Prof. Yogesh Sharma, IIT Roorkee</i></p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/Dr. Sameer SM.jpeg" alt="" >
-								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Sameer SM, Professor, NIT Calicut, Kerela, India</p>
-
-							</div>
-							<div class="cards">
-								<img src="../image/nadvisory/Dr. Dipankar Pal, Professor, BITS Pilani, India.jpg" alt="" >
-								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Dipankar Pal, Professor, BITS Pilani, India</p>
-
-							</div>
-							<div class="cards">
-								<img src="../image/nadvisory/Tapas Chakravarty, TCS Reasearch and Innovation, India.jpg" alt="" >
-								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Tapas Chakravarty, Principal Scientist, TCS Reasearch and Innovation, India</p>
-
-							</div>
-							<div class="cards">
-								<img src="../image/nadvisory/Balwindar Singh, ACSD, CDAC Mohali, India.jpg" alt="" >
-								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Balwindar Singh, Professor & Joint Director ACSD, CDAC Mohali, India</p>
-
-							</div>
-							<div class="cards">
-								<img src="../image/nadvisory/Jaypal Singh Ubhi, SLIET, Punjab.jpg" alt="" >
-								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Jaypal Singh Ubhi, Professor, SLIET, Punjab, India</p>
-
-							</div>
-							<div class="cards">
-								<img src="../image/nadvisory/Y Padma Sai, VNRV JIET, Hyderabad.jpg" alt="" >
-								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Y Padma Sai, Professor, VNRV JIET, Hyderabad, India</p>
+								<img src="../commitee/photo_adv/Abhishek_kumar.jpeg" alt="" >
+								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Prof. Abhishek Kumar, MNNIT Allahabad  </p>
 
 							</div>
 
 
 
                             <div class="cards">
-								<img src="../image/nadvisory/Ranjan Senapati, VNRV JIET, Hyderabad.jpg" alt="" >
-								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Ranjan Senapati, Professor, VNRV JIET, Hyderabad, India</p>
+								<img src="../commitee/photo_adv/pooja_mishra.jpeg" alt="" >
+								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Pooja Mishra, IIIT Allahabad</p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/Rijwan Khan, ABES Institute of Technology, Ghaziabad.jpg" alt="" >
-								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Rijwan Khan, Professor, ABES Institute of Technology, Ghaziabad, India</p>
+								<img src="../commitee/photo_adv/prabhat_sharma.jpeg" alt="" >
+								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Prabhat Sharma, IRDE, DRDO, Dehradun</p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/Preetam Kumar, IIT Patna, India.jpg" alt="" >
-								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Preetam Kumar, Associate Professor, IIT Patna, India</p>
+								<img src="../commitee/photo_adv/smriti_agarwal.jpeg" alt="" >
+								 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Prof. Smriti Agarwal, MNNIT Allahabad</p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/Sanjeev Kumar, CSIR-CSIO, Chandigarh.png" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Sanjeev Kumar, Principal Scientist, CSIR-CSIO, Chandigarh, India</p>
+								<img src="../commitee/photo_adv/ravi_panwar.jpeg" alt="" >
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Prof. Ravi Panwar, IIITM Jabalpur </p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/Anil Kumar Singh, IIT (BHU), Varanasi.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Anil Kumar Singh, Associate Professor, IIT (BHU), Varanasi, India</p>
+								<img src="../commitee/photo_adv/vs_pandey.jpeg" alt="" >
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Prof. V.S. Pandey, NIT Delhi </p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/Ravi Kumar J, NIT Warangal, AP.jpg" alt=""style="border-radius: 50%;">
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Ravi Kumar J, Associate Professor, NIT Warangal, AP, India</p>
+								<img src="../commitee/photo_adv/neeraj_gill.jpeg" alt=""style="border-radius: 50%;">
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Prof.	Neeraj	Gill,	GZSCCET	MRSPTU, Bathinda, Punjab</p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/Shiru Sharma, IIT (BHU), Varanasi, India.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Shiru Sharma, Associate Professor, IIT (BHU), Varanasi, India</p>
+								<img src="../commitee/photo_adv/prof_mohd_najim.jpeg" alt="" >
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Prof. Mohd. Najim, University of Jeddah, Saudi Arabia</p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/Ashish Khare, University of Allahabad, India.jpg" alt=""  >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Ashish Khare, Associate Professor, University of Allahabad, India</p>
+								<img src="" alt=""  >
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Naina Narang, IIT Roorkee </p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/Ankur Dumuka, University of Allahabad, India.jpeg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Ankur Dumuka, Associate Professor WIT, Dehradun, U.K India</p>
+								<img src="../commitee/photo_adv/varsha_mishra.jpeg" alt="" >
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Varsha Mishra, University of Pisa, Italy</p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/Basant Kumar, MNNIT, Allahabad, U.P, India.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Basant Kumar, Associate Professor, MNNIT, Allahabad, U.P, India</p>
+								<img src="" alt="" >
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Jayanta Ghosh, Assoc. Professor, N.I.T Patna, India</p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/P.M.K Prasad, GVPCEW, Visakhapatnam.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. P.M.K Prasad, Associate Professor, GVPCEW, Visakhapatnam, India</p>
+								<img src="" alt="" >
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Bharat Gupta, Assoc. Professor, N.I.T Patna, India</p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/Prabhat Kumar, NIT Patna, India.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Prabhat Kumar, Associate Professor, NIT Patna, India</p>
+								<img src="" alt="" >
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Rabindra Kumar, Assoc. Professor, N.I.T Patna, India</p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/Gayadhar Pradhan, NIT Patna, India.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Gayadhar Pradhan, Associate Professor, NIT Patna, India</p>
+								<img src="" alt="" >
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Gayadhar Pradhan, Assoc. Professor, N.I.T Patna, India</p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/Maheshwari Prasad Singh, NIT Patna.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Maheshwari Prasad Singh, Associate Professor, NIT Patna, India</p>
+								<img src="" alt="" >
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Rajarshi Bhattacharya, Asstt. Professor, ECE, N.I.T Patna </p>
 
 							</div>
 							<div class="cards">
-								<img src="../image/nadvisory/Bharat Gupta, NIT Patna.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Bharat Gupta, Associate Professor, NIT Patna, India</p>
+								<img src="" alt="" >
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Seemanti Saha, Asstt. Professor, ECE, N.I.T Patna</p>
 
 							</div>
-							<div class="cards">
+							<!-- <div class="cards">
 								<img src="../image/nadvisory/Rabindra Kumar, NIT Patna, India.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Rabindra Kumar, Associate Professor, NIT Patna, India</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i></p>
 
 							</div>
 
@@ -596,114 +641,114 @@
 
                             <div class="cards">
 								<img src="../image/nadvisory/Manoj Kumar Singh, BHU.jpg" alt=""  >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Manoj Kumar Singh, Associate Professor, BHU, India</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i></p>
 
 							</div>
 							<div class="cards">
 								<img src="../image/nadvisory/Arvind Tiwari, KNIT Sultanpur, Uttar Pradesh.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Arvind Tiwari, Associate Professor, KNIT Sultanpur, Uttar Pradesh, India</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Arvind </p>
 
 							</div>
 							<div class="cards">
 								<img src="../image/nadvisory/Sudhan Majhi, IIT Patna.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Sudhan Majhi, Associate Professor, IIT Patna, India</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i></p>
 
 							</div>
 							<div class="cards">
 								<img src="../image/nadvisory/DrRajeevMishraIITPatna.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Rajeev Mishra, Associate Professor, IIT Patna</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></</p>
 							</div>
 							<div class="cards">
 								<img src="../image/nadvisory/madhu G.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. G.Madhu, Associate Professor, VNRV JIET, Hyderabad</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i></p>
 							</div>
 
 							<div class="cards">
 								<img src="../image/nadvisory/Brahmananda Reddy.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Brahmananda Reddy, Associate Professor, VNRV JIET, Hyderabad</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i></p>
 							</div>
 							<div class="cards">
 								<img src="../image/nadvisory/Dr.Deepak Sukhega,Associate Professor  ,VNRVJIET, Hyderabad.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Deepak Sukhega, Associate Professor, VNRVJIET, Hyderabad</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></</p>
 							</div>
 							<div class="cards">
 								<img src="../image/nadvisory/Namita Mittal.jpg" alt="">
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Namita Mittal, Associate Professor MNIT Jaipur</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></</p>
 
 							</div>
 							<div class="cards">
 								<img src="../image/nadvisory/Alok Kumar Singh.jpeg" alt="">
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr.Alok Kumar Singh Kushwaha<br>Associate Professor, Guru Ghasidas Viswavidyalaya, Bilaspur</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr.Alok Kumar Singh </p>
 
 							</div>
 							<div class="cards">
 								<img src="../image/nadvisory/Pritee khanna iiitdn jabalpur.jpg" alt="">
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr.Pritee Khanna<br>Associate Professor, IIITDM, Jabalpur</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i></p>
 
 							</div>
 							<div class="cards">
 								<img src="../image/nadvisory/J P Singh, NIT Patna.png" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. J P Singh, Assistant Professor, NIT Patna, India</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. </p>
 
 							</div>
 							<div class="cards">
 								<img src="../image/nadvisory/Amit Kumar Singh, NIT Patna.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Amit Kumar Singh, Assistant Professor, NIT Patna, India</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. </p>
 
 							</div>
 							<div class="cards">
 								<img src="../image/nadvisory/Rakesh Ranjan,  NIT Patna.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Rakesh Ranjan, Assistant Professor, NIT Patna, India</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i></p>
 
 							</div>
 							<div class="cards">
 								<img src="../image/nadvisory/Niharika Kulshrestha, Patna Women_s College, Patna.jpeg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Niharika Kulshrestha, Assistant Professor, Patna Women's College, Patna, India</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Niharika Kulshrestha, </p>
 
 							</div>
 							<div class="cards">
 								<img src="../image/nadvisory/Madhushi Verma, Bennett University, India.png" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Madhushi Verma, Assistant Professor, Bennett University, India</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i></p>
 
 							</div>
 							<div class="cards">
 								<img src="../image/nadvisory/R B Yadav, G B Pant Institute of Engineering and Technology.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. R B Yadav, Assistant Professor, G B Pant Institute of Engineering and Technology, India</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. R B Yadav, Assistant Professor, G </p>
 
 							</div>
 							<div class="cards">
 								<img src="../image/nadvisory/Seemanti Saha, NIT Patna.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Seemanti Saha, Assistant Professor, NIT Patna, India</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i></p>
 
 							</div>
 							<div class="cards">
 								<img src="../image/nadvisory/Ashish Kumar Bhandari, NIT Patna.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Ashish Kumar Bhandari, Assistant Professor, NIT Patna, India</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. </p>
 
 							</div>
 							<div class="cards">
 								<img src="../image/nadvisory/Vimlesh Verma, NIT Patna.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Vimlesh Verma, Assistant Professor, NIT Patna, India</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i></p>
 
 							</div>
 							<div class="cards">
 								<img src="../image/nadvisory/Ambarisha Mishra, NIT Patna.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Ambarish Mishra, Assistant Professor, NIT Patna, India</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i></p>
 
 							</div>
 							<div class="cards">
 								<img src="../image/nadvisory/Puli Kishore Kumar, NIT AP.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Puli Kishore Kumar, Assistant Professor, NIT AP, India</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. </p>
 
 							</div>
 							<div class="cards">
 								<img src="../image/nadvisory/Sanjay Saxena, IIIT Bhuvaneshwar.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Sanjay Saxena, Assistant Professor, IIIT Bhuvaneshwar, India</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i></p>
 
 							</div>
 							<div class="cards">
 								<img src="../image/nadvisory/Pratik Chattopadhyay, IIT (BHU), Varanasi.jpg" alt="" >
-                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Pratik Chattopadhyay, Assistant Professor, IIT (BHU), Varanasi, India</p>
+                                 <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Pratik Chattopadhyay, </p>
 
 							</div>
 
@@ -870,7 +915,7 @@
 
                             
 
-
+ -->
 
 						</div>
 
@@ -902,10 +947,10 @@
 	                    <table width="1328" border="0" align="center">
 		                    <tbody><tr>
 								<td>&nbsp;</td>
-								<td><div><p>&nbsp;&nbsp;&nbsp; copyrights ©<font color=" #f1c40f"><strong>AITA - 2021</strong></font>, inc. All rights reserved.</p></div></td>
+								<td><div><p>&nbsp;&nbsp;&nbsp; copyrights ©<font color=" #f1c40f"><strong>VAMMAM - 2022</strong></font>, inc. All rights reserved.</p></div></td>
 								<td>&nbsp;</td>
 								<td width="119">&nbsp;</td>
-								<td width="510">Designed and Maintained by <strong><font color=" #f1c40f">AITA 2021 Student Committee</font></strong></td>
+								<td width="510">Designed and Maintained by <strong><font color=" #f1c40f">VAMMAM 2022 Student Committee</font></strong></td>
 							</tr></tbody>
 						</table>
 					</div>
